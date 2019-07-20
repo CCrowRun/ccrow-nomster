@@ -69,3 +69,5 @@ source 'https://rails-assets.org' do
 end 
 
 gem 'sprockets-rails', :require => 'sprockets/railtie'
+
+gem 'pagy'

@@ -1,3 +1,5 @@
+
+
 <% @places.each do |place| %>
   <div class="booyah-box col-10 offset-1">
     <h1><%= place.name %></h1>
@@ -5,3 +7,6 @@
     <p><%= place.description %></p><br />
   </div>
 <% end %>
+<div class="booyah-bar offset-1">
+  <%== pagy_bootstrap_nav(@pagy) %>
+</div>
