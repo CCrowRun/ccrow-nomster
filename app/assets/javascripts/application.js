@@ -17,6 +17,6 @@
 //= require turbolinks
 //= require popper
 //= require tether
-//= require boostrap-sprockets
+//= require bootstrap-sprockets
 //= require_tree .
 
