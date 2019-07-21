@@ -73,3 +73,4 @@ gem 'sprockets-rails', :require => 'sprockets/railtie'
 
 gem 'pagy'
 gem 'font-awesome-rails'
+gem 'devise'
