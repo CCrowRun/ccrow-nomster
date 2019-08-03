@@ -70,6 +70,14 @@
     Add a Comment
   </button>
 </div>
+<div class="clear"></div>
+
+<h1>Photo</h1>
+<%= simple_form_for @photo, url: place_photos_path(@place) do |p| %>
+  <%= p.input :caption %>
+  <button type="button" class="btn btn-secondary">Close</button>
+  <%= p.submit "Add a Photo", class: 'btn btn-primary' %>
+<% end %>
 
 <div class="clear"></div>
 
@@ -83,6 +91,17 @@
         <%= comment.message %>
         <small><%= comment.user.email %></small>
       </blockquote>
+    </div>
+  <% end %>
+</div>
+
+<div class="clear"></div>
+
+<div class="row">
+  <% @place.photos.each do |photo| %>
+    <div class="col-12 col-sm-6">
+      <h2> <%= photo.caption %></h2>
+      <small><%= photo.user.email %></small>
     </div>
   <% end %>
 </div>
