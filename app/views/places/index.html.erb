@@ -18,6 +18,17 @@
         </blockquote>
       </div>
     <% end %>
+    <% if place.photos.present? %>
+      <div class="col-12">
+        <blockquote>
+          <% if place.photos.last.picture.url.present? %>
+            <%= image_tag place.photos.last.picture.url %>
+          <% end %>
+          <%= place.photos.last.caption %>
+          <small><%= place.photos.last.user.email %></small>
+        </blockquote>
+      </div>
+    <% end %>
   </div>
 <% end %>
 <div class="booyah-bar offset-1">
