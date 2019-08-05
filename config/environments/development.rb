@@ -1,6 +1,6 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
-  config_action_mailer.delivery_method = :test
+  config.action_mailer.delivery_method = :test
   #config.action_mailer.delivery_method = :smtp
 
   #config.action_mailer.smtp_settings = {
