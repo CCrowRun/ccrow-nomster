@@ -22,7 +22,7 @@ As an authenticated user, I want to:
 ## How to run the application:
 
 ### Production
-Navigate to the production location of [Nomster](https://nomster-carrie-crow.herokuapp.com/)
+Navigate to the production location of [Nomster](https://radiant-savannah-23956-ed8410181269.herokuapp.com/)
 
 #### All Users
 1. To sign up, sign in, or log out, use the hyperlinks in the navigation bar:
